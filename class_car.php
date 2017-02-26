@@ -6,7 +6,7 @@ class Car {
     
     function MoveWheels(){
         
-        echo "Wheels move";
+        echo "The wheels are moving";
         
     }
     
@@ -55,11 +55,20 @@ $mercedes_benz = new Car();
 
 /** Now lets use the MoveWheels method **/
 
+echo "Testing the wheels of the bmw...";
+echo "</br>";
+
 $bmw->MoveWheels();
 
-/** this -> looks kinda funny to me since I am used to using . in java **/
+echo "</br>";
+
+/** the symbol -> looks kinda funny to me since I am used to using . in java **/
+
+echo "Testing the wheels of the Mercedes Benz...";
+echo "</br>";
 
 $mercedes_benz->MoveWheels();
 
+echo "</br>";
 
 ?>
