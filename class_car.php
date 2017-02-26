@@ -111,11 +111,7 @@ echo "</br>";
 
 echo "Setting the car to coup configuration";
 $mercedes_benz->TwoDoors();
-echo "The number of doors on the mercedes benz are: ";
 echo "</br>";
-echo "$mercedes_benz->doors";
-echo "</br>";
-
 echo "The number of doors on the mercedes benz are: ";
 echo "</br>";
 echo "$mercedes_benz->doors";
