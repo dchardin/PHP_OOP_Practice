@@ -77,12 +77,12 @@ echo "</br>";
 
 echo "The number of wheels on the bmw are: ";
 echo "</br>";
-echo "$bmw->wheels";
+echo $bmw->wheels;
 echo "</br>";
 
 echo "The number of doors on the bmw are: ";
 echo "</br>";
-echo "$bmw->doors";
+echo $bmw->doors;
 echo "</br>";
 
 /** the symbol -> looks kinda funny to me since I am used to using . in java **/
@@ -101,12 +101,12 @@ $mercedes_benz->wheels = 8;
 
 echo "The number of wheels on the mercedes benz are: ";
 echo "</br>";
-echo "$mercedes_benz->wheels";
+echo $mercedes_benz->wheels;
 echo "</br>";
 
 echo "The number of doors on the mercedes benz are: ";
 echo "</br>";
-echo "$mercedes_benz->doors";
+echo $mercedes_benz->doors;
 echo "</br>";
 
 echo "Setting the car to coup configuration";
@@ -114,7 +114,6 @@ $mercedes_benz->TwoDoors();
 echo "</br>";
 echo "The number of doors on the mercedes benz are: ";
 echo "</br>";
-echo "$mercedes_benz->doors";
-echo "</br>";
+echo $mercedes_benz->doors . "<br>";
 
 ?>
