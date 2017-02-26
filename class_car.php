@@ -32,7 +32,10 @@ if(class_exists("Car")) {
 **/
 
 
+
 /** method_exists function in action **/
+
+/**
 
 if(method_exists("Car", "MoveWheels")) {
     
@@ -41,5 +44,22 @@ if(method_exists("Car", "MoveWheels")) {
 } else {
     echo "The method does not exist";
 }
+
+**/
+
+/** Lets create some objects based on our Car class **/
+
+
+$bmw = new Car();
+$mercedes_benz = new Car();
+
+/** Now lets use the MoveWheels method **/
+
+$bmw->MoveWheels();
+
+/** this -> looks kinda funny to me since I am used to using . in java **/
+
+$mercedes_benz->MoveWheels();
+
 
 ?>
